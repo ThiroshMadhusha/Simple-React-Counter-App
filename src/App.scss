@@ -1,0 +1,25 @@
+.counterapp {
+  height: 100vh;
+  background: rgb(9, 9, 70);
+
+  .counter {
+    background: rgb(226, 161, 32);
+    min-width: 600px;
+    padding: 2rem;
+
+    .count {
+      width: 4rem;
+      height: 4rem;
+      border: 2px solid white;
+      border-radius: 50%;
+      padding: 4rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .buttons{
+        display: flex;
+        transform: scale(1.1);
+    }
+  }
+}
